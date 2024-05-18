@@ -36,6 +36,7 @@ dependencies:
 
   #database
   floor: any
+  sqflite: ^2.0.0+4
   # api request
 
   retrofit : ^4.1.0

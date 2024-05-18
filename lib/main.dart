@@ -5,11 +5,11 @@ import 'package:news_app/config/theme/app_theme.dart';
 import 'package:news_app/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
 import 'package:news_app/features/daily_news/presentation/bloc/article/remote/remote_article_event.dart';
 // import 'package:news_app/features/daily_news/presentation/bloc/article/remote/remote_article_state.dart';
-import 'package:news_app/features/daily_news/presentation/pages/daily_news.dart';
+import 'package:news_app/features/daily_news/presentation/pages/home/daily_news.dart';
 import 'package:news_app/injection_container.dart';
 
 Future<void> main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeDependencies();
   runApp(const MyApp());
 }
